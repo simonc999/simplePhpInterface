@@ -12,3 +12,11 @@ button:hover {background:#1259a1}
 .btn       {margin:.4rem;padding:.6rem 1.2rem;border:0;border-radius:6px;
     background:#1976d2;color:#fff;text-decoration:none;font-size:1rem}
 .btn:hover {background:#1259a1}
+.btn       {margin:.4rem;padding:.6rem 1.2rem;border:0;border-radius:6px;
+    background:#1976d2;color:#fff;text-decoration:none;font-size:1rem;
+    cursor:pointer}
+.btn:hover {background:#1259a1}
+
+.danger       {background:#d32f2f}
+.danger:hover {background:#a51717}
+
