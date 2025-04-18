@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Interface</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+      <h1>Demo interface</h1>
+
+      <a class="btn" href="loginForm.php">Login</a>
+      <a class="btn" href="registerForm.php">Register</a>
+      <a class="btn" href="studentForm.php">Insert student</a>
+
+      <form action="initDb.php" method="post" style="display:inline">
+          <button class="btn" type="submit">Initialise DB</button>
+      </form>
+
+      <!-- NEW —––– -->
+      <form action="dropDb.php" method="post" style="display:inline">
+          <button class="btn danger" type="submit"
+                  onclick="return confirm('Really DROP the whole database?');">
+            Drop DB
+          </button>
+      </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body      {font-family:system-ui;background:#f8f8f8;margin:0;
+           display:flex;flex-direction:column;align-items:center}
+h1        {margin:2rem 0}
+form      {background:#fff;padding:2rem;border-radius:8px;
+           box-shadow:0 2px 6px rgba(0,0,0,.1)}
+label     {display:block;margin:.6rem 0}
+input     {padding:.4rem .5rem;border:1px solid #bbb;border-radius:4px}
+button    {margin-top:1rem;padding:.6rem 1.2rem;border:0;border-radius:6px;
+           background:#1976d2;color:#fff;font-size:1rem;cursor:pointer}
+button:hover {background:#1259a1}
+.back     {display:inline-block;margin-top:1.5rem;color:#1976d2}
+.btn       {margin:.4rem;padding:.6rem 1.2rem;border:0;border-radius:6px;
+    background:#1976d2;color:#fff;text-decoration:none;font-size:1rem}
+.btn:hover {background:#1259a1}
