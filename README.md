@@ -1,3 +1,4 @@
+## Description
 A minimalist **PHP & MySQL** starter‑kit that shows how to:
 
 * spin up or drop a database/tables with one click  
